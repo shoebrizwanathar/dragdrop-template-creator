@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+  <p class="topHeading center">{{title}}</p>
+  <div class="row">
+    <div class="col-3 leftContainer">
+      <app-custom-checkboxes id="drag2" draggable="true" (dragstart)="drag($event)"></app-custom-checkboxes>
+      <app-button-component id="drag1" draggable="true" (dragstart)="drag($event)"></app-button-component>
+      <app-sign-in-form id="drag3" draggable="true" (dragstart)="drag($event)"></app-sign-in-form>
+    </div>
+    <div class="col-9 rightContainer center">
+      <div id="div1" (drop)="drop($event)" (dragover)="allowDrop($event)"></div>
+    </div>
+  </div>
+</body>
+
+</html>

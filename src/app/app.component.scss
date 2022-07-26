@@ -1,0 +1,50 @@
+#div1 {
+  width: 65vh;
+  min-height: 75vh;
+  height: fit-content;
+  padding: 10px;
+  border: 5px dashed #aaaaaa;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+.btn {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 10px;
+  background-color: #C84B31;
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #FCF8E8;
+  flex-direction: column;
+}
+
+.rightContainer {
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightContainer #id {
+  background-color: #FCF8E8;
+}
+
+.topHeading {
+  font-size: 22px;
+  padding: 24px;
+}
+
+.margin-20 {
+  margin-top: 20px;
+}
